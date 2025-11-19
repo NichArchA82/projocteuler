@@ -11,7 +11,11 @@
 # for every number in the list devide it by 3 or 5
 # add the ones that are not decimals together for the sum
 #
-a = [1,2,3,4,5]
+a = [1,2,3,4,5,6,12]
 for i in a: 
     
-    print (i%3)
+    print ("mod 3:",i%3) 
+    print ("mod 5:",i%5)
+b=list (range(1,1001))
+print (b)
+
