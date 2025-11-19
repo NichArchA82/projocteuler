@@ -7,15 +7,22 @@
 
 
 # make a list of all the numbers below 1000
+b = list (range(1,1000))
+
 # get the multiples of 3, 5 below 1000
+for i in b:
+    if i % 3 == 0:
+        print("no remainder for 3", i)
+    if i % 5 == 0:
+        print("no remainder for 5", i)
+
 # for every number in the list devide it by 3 or 5
 # add the ones that are not decimals together for the sum
 #
-a = [1,2,3,4,5,6,12]
-for i in a: 
-    
-    print ("mod 3:",i%3) 
-    print ("mod 5:",i%5)
-b=list (range(1,1001))
-print (b)
+# a = [1,2,3,4,5,6,12]
 
+
+# print (b)
+
+# TODO 
+# Add the numbers that are divisible by 3 or 5
